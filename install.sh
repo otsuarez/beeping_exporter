@@ -21,7 +21,9 @@ run mkdir /etc/service/beeping
 run mkdir -p /opt/GeoIP
 run cp /pd_build/runit/beeping /etc/service/beeping/run
 run cp /pd_build/files/beeping /usr/local/bin/
-run cp /pd_build/files/GeoLite2-City.mmdb /opt/GeoIP/
+#run curl -sL http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz -O /tmp/GeoLite2-City.tar.gz
+#run tar zxf /tmp/GeoLite2-City.tar.gz
+#run mv GeoLite2-City*/*mmdb /opt/GeoIP/
 
 header "Installing beeping_exporter..."
 ## Install beeping_exporter.
