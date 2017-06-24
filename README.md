@@ -16,6 +16,9 @@ curl localhost:9118/metrics
 ```
 
 
+![httpstats](./httpstats.png)  
+
+
 # beeping_exporter
 
 The [beeping service](https://github.com/yanc0/beeping) is a great tool for monitoring web sites. 
