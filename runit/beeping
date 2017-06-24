@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+exec chpst -u app /usr/local/bin/beeping -listen 0.0.0.0 -instance ${BEEPING_INSTANCE}

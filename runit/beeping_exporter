@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+exec chpst -u app /usr/local/bin/beeping_exporter.py --beeping ${BEEPING_SERVER} --port ${BEEPING_METRICS_PORT}

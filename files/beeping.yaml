@@ -1,0 +1,12 @@
+example.org:
+  url: https://www.example.org
+  pattern: used for illustrative examples
+  timeout: 10
+example.net:
+  url: http://example.net
+  pattern: Example Domain
+  timeout: 10
+github.com:
+  url: https://github.com
+  pattern: Contact GitHub
+  timeout: 10
